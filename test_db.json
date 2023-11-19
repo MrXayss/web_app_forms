@@ -1,0 +1,67 @@
+{
+    "_default": {
+        "1": {
+            "name_template": "User1Form",
+            "fields": [
+                {
+                    "user_mail": "user1@ya.ru",
+                    "type": "email"
+                },
+                {
+                    "user_phone": "+79134323546",
+                    "type": "phone"
+                },
+                {
+                    "reg_date": "10.10.2020",
+                    "type": "date"
+                },
+                {
+                    "user_description": "test333",
+                    "type": "text"
+                }
+            ]
+        },
+        "2": {
+            "name_template": "TestUserForm",
+            "fields": [
+                {
+                    "user_mail": "test@ya.ru",
+                    "type": "email"
+                },
+                {
+                    "user_phone": "+79134321563",
+                    "type": "phone"
+                },
+                {
+                    "reg_date": "21.09.2021",
+                    "type": "date"
+                },
+                {
+                    "user_description": "i am admin",
+                    "type": "text"
+                }
+            ]
+        },
+        "3": {
+            "name_template": "AdminForm",
+            "fields": [
+                {
+                    "user_mail": "admin@gmail.com",
+                    "type": "email"
+                },
+                {
+                    "user_phone": "+79134323546",
+                    "type": "phone"
+                },
+                {
+                    "reg_date": "01.05.2023",
+                    "type": "date"
+                },
+                {
+                    "user_description": "i am admin",
+                    "type": "text"
+                }
+            ]
+        }
+    }
+}
